@@ -1,0 +1,106 @@
+* {
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background: url(../imagem/bg-repeat.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: 100vh;
+}    
+
+body {
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 9em;
+    margin-left: 0;
+}
+
+.titulo {
+    color: #fff;
+    margin-bottom: 13px;
+}
+
+.titulo h1 {
+    font-size: 2rem;
+    width: 250px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.titulo span {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.info .descricao {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    width: 300px;
+    margin: 0;
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    width: 340px;
+    height: 400px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.formulario input {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid black; 
+}
+
+.formulario #mensagem {
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.formulario p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+button {
+    padding: 10px;
+    width: 298.013px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3CCC87;
+    cursor: pointer;
+}
+
+.mensErro {
+    color: #ff0000;
+}
+
+
